@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bertopic_congresso"
+version = "0.1.0"
+description = "Modelagem de tópicos em discursos de parlamentares no Congresso Nacional usando BERTopic."
+license = "LGPL-3.0-or-later"
+authors = ["Matheus Alves <matheusalves@copin.ufcg.edu.br>"]
+repository = "https://github.com/beabaparlamentar/congresso-utils"
+keywords = ["congresso-nacional", "parlamentares", "bertopic", "modelagem-topicos"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^6.0.0"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
