@@ -9,7 +9,16 @@ keywords = ["congresso-nacional", "parlamentares", "bertopic", "modelagem-topico
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.8.1"
+bertopic = "^0.14.1"
+hdbscan = "^0.8.29"
+nltk = "^3.8.1"
+numpy = "^1.24.3"
+octis = "^1.11.1"
+pandas = "1.5.3"
+sentence-transformers = "^2.2.2"
+spacy = "^3.5.2"
+umap-learn = "^0.5.3"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^6.0.0"
