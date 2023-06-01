@@ -8,10 +8,10 @@ class PathsNamespace:
         "corpus": os.path.join("data", "corpus.csv"),
         "corpus_dump": os.path.join("corpus_dump.txt"),
         "embeddings": os.path.join("data", "embeddings.npy"),
-        "evaluation": os.path.join("data", "model_evaluation.csv"),
-        "topics": os.path.join("data", "topics.csv"),
-        "topic_words": os.path.join("data", "topic_words.csv"),
-        "model": os.path.join("bertopic_model"),
+        "evaluation": os.path.join("data", "avaliacao_modelos.csv"),
+        "topics": os.path.join("data", "topicos.csv"),
+        "topic_words": os.path.join("data", "termos_por_topico.csv"),
+        "model": os.path.join("bertopic"),
     }
     FOLDER_PATHS = {"corpus": os.path.join("data", "corpus")}
 
