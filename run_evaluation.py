@@ -20,6 +20,7 @@ def get_stopwords():
     stopwords = list(stopwords)
 
     print(f"Serão utilizadas {len(stopwords)} stopwords neste experimento.\n")
+
     return stopwords
 
 
@@ -40,8 +41,8 @@ def create_embeddings(documents):
 if __name__ == "__main__":
     loader = Loader()
     corpus_path = PATHS.get_file_path(name="corpus")
-    stopwords = get_stopwords()
 
+    stopwords = get_stopwords()
     texts = get_texts(corpus_path=corpus_path)
     dataset = loader.create_documents(texts=texts)
     embeddings = create_embeddings(documents=loader.get_documents())
